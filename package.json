@@ -1,0 +1,27 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliastewartprojects/deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliastewartprojects/deploy/issues"
+  },
+  "homepage": "https://github.com/nataliastewartprojects/deploy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
